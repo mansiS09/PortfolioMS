@@ -6,7 +6,6 @@ import resumeIcon from "/src/assets/resumeIcon.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import RotatingText from './decorate/RotatingText'
-import reumeMS from "/src/assets/resumeMS.pdf";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -298,7 +297,7 @@ export default function Hero() {
             </p>
 
             <a
-              href={resumeMS}
+              href="/resumeMS.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{
