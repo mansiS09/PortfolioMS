@@ -2,6 +2,10 @@ import React,{ useEffect, useRef, useState } from "react";
 import YellowBg from "./decorate/YellowBg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import polySkills from "/src/assets/polySkills.png";
+import polyDescri from "/src/assets/polyDescri.png";
+import polyAbout from "/src/assets/polyAbout.png";
+import polyEdu from "/src/assets/polyEdu.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
