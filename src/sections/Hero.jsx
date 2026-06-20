@@ -151,7 +151,7 @@ export default function Hero() {
       <section
         id="hero"
         ref={sectionRef}
-        className="relative flex-1 flex items-center overflow-hidden"
+        className="relative flex-1 flex items-center pt-18 overflow-hidden"
         style={{ minHeight: "calc(100vh - 64px)" }}
       >
         <YellowBg />
