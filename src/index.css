@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Notable&family=Playpen+Sans:wght@100..800&family=Smooch&family=Smooch+Sans:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Smooch Sans', 'sans-serif';
+}
+
+@layer utilities {
+.playpen-sans {
+  font-family: "Playpen Sans";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.bitcount-grid-double {
+  font-family: "Bitcount Grid Double";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.notable-regular {
+  font-family: "Notable";
+  font-weight: 900;
+  font-style: normal;
+}
+
+.smooch-sans{
+  font-family: "Smooch Sans";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.smooch-regular {
+  font-family: "Smooch";
+  font-weight: 900;
+  font-style: normal;
+}
+
+}
