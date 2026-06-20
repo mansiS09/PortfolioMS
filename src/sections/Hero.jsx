@@ -298,7 +298,7 @@ export default function Hero() {
             </p>
 
             <a
-              href="/src/assets/resumeMS.pdf"
+              href={resumeMS}
               target="_blank"
               rel="noopener noreferrer"
               style={{

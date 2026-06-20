@@ -2,10 +2,10 @@ import React,{ useEffect, useRef, useState } from "react";
 import YellowBg from "./decorate/YellowBg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import polySkills from "/src/assets/polySkills.png";
-import polyDescri from "/src/assets/polyDescri.png";
 import polyAbout from "/src/assets/polyAbout.png";
+import polyDescri from "/src/assets/polyDescri.png";
 import polyEdu from "/src/assets/polyEdu.png";
+import polySkills from "/src/assets/polySkills.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,7 +22,7 @@ const useIsMobile = () => {
 const AboutMe = () => (
   <div style={{ position: "relative", width: "100%", height: "100%" }}>
     <img
-      src="/src/assets/polyAbout.png"
+      src={polyAbout}
       alt=""
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "fill" }}
     />
@@ -59,7 +59,7 @@ const AboutMe = () => (
 const IntroText = () => (
   <div style={{ position: "relative", width: "100%", height: "100%" }}>
     <img
-      src="/src/assets/polyDescri.png"
+      src={polyDescri}
       alt=""
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "fill" }}
     />
@@ -99,7 +99,7 @@ const IntroText = () => (
 const Education = () => (
   <div style={{ position: "relative", width: "100%", height: "100%" }}>
     <img
-      src="/src/assets/polyEdu.png"
+      src={polyEdu}
       alt=""
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "fill" }}
     />
@@ -147,7 +147,7 @@ const Education = () => (
 const Skills = () => (
   <div style={{ position: "relative", width: "100%", height: "100%" }}>
     <img
-      src="/src/assets/polySkills.png"
+      src={polySkills}
       alt=""
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "fill" }}
     />
