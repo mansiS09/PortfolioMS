@@ -2,11 +2,6 @@ import React,{ useEffect, useRef, useState } from "react";
 import YellowBg from "./decorate/YellowBg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import mediarca from "/src/assets/mediarca.png";
-import interstellar from "/src/assets/interstellar.png";
-import jsQuiz from "/src/assets/jsQuiz.png";
-import githubFinder from "/src/assets/githubFinder.png";
-import webdevGuide from "/src/assets/webdevGuide.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,7 +20,7 @@ const projects = [
     id: 1,
     title: "MediArca Website",
     titleFont: "Bitcount Grid Double",
-    screenshot: {mediarca},
+    screenshot: "/mediarca.png",
     description: "MediArca is a scalable, full-stack digital healthcare ecosystem designed to transition traditional offline clinical workflows into a high-efficiency, microservices-ready platform.",
     github: "currently unavailable",
     githubUrl: null,
@@ -36,7 +31,7 @@ const projects = [
     id: 2,
     title: "Interstellar Fanpage",
     titleFont: "Bitcount Grid Double",
-    screenshot: {interstellar},
+    screenshot: "/interstellar.png",
     description: 'This was my very first website, simple yet attractive. It is a fan-page of the movie "Interstellar" built using HTML, CSS, and JavaScript.',
     github: "https://github.com/mansiS09/PROJECT-REPO",
     githubUrl: "https://github.com/mansiS09/PROJECT-REPO",
@@ -47,7 +42,7 @@ const projects = [
     id: 3,
     title: "JavaScript Quiz",
     titleFont: "Bitcount Grid Double",
-    screenshot: {jsQuiz},
+    screenshot: "/jsQuiz.png",
     description: "This web-page is a quiz created to test user's knowledge in basic JavaScript.",
     github: "https://github.com/mansiS09/task2vercel",
     githubUrl: "https://github.com/mansiS09/task2vercel",
@@ -58,7 +53,7 @@ const projects = [
     id: 4,
     title: "Github Profile Finder",
     titleFont: "Bitcount Grid Double",
-    screenshot: {githubFinder},
+    screenshot: "/githubFinder.png",
     description: "This website is a github profile finder that fetches the summary of a github profile using username.",
     github: "https://github.com/mansiS09/task3webwiz",
     githubUrl: "https://github.com/mansiS09/task3webwiz",
@@ -69,7 +64,7 @@ const projects = [
     id: 5,
     title: "Beginner WebDev Guide",
     titleFont: "Bitcount Grid Double",
-    screenshot: {webdevGuide},
+    screenshot: "webdevGuide.png",
     description: "This website is a beginner's guide to start web development.",
     github: "https://github.com/mansiS09/Task1webwiz",
     githubUrl: "https://github.com/mansiS09/Task1webwiz",
